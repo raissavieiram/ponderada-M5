@@ -20,4 +20,8 @@ Este commit implementou a lógica JavaScript necessária para permitir que os us
 
 ### feat: adiciona funcionalidade de puxar tarefa do local storage
 
-O último commit melhorou a funcionalidade da aplicação permitindo que as tarefas sejam salvas no local storage do navegador. Isso significa que as tarefas adicionadas não desaparecem ao recarregar a página.
+Este commit melhorou a funcionalidade da aplicação permitindo que as tarefas sejam salvas no local storage do navegador. Isso significa que as tarefas adicionadas não desaparecem ao recarregar a página.
+
+### docs: adiciona documentação do projeto
+
+Este commit adiciona o conteúdo da documentação do projeto no arquivo read.me. Inclui o nome do projeto, descrição da solução e as etapas de desenvolvimento detalhadas por commits.

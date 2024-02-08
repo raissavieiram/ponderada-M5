@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const inputField = document.getElementById('taskInput');
     const tasksList = document.getElementById('tasksList');
 
+    loadTasks();
 
     addButton.addEventListener('click', function() {
         const task = inputField.value.trim();
@@ -35,5 +36,10 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem('tasks', JSON.stringify(tasks));
     }
 
-    
+    function loadTasks() {
+        const tasks = JSON.parse(localStorage.getItem('tasks'));
+        if (tasks) {
+            tasks.forEach(addTask);
+        }
+    }
 });
